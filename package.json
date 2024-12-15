@@ -1,0 +1,27 @@
+{
+    "name": "@phfaist/parcel-resolver-root",
+    "version": "0.1.0",
+    "license": "MIT",
+    "main": "lib/index.js",
+    "source": "index.js",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/phfaist/parcel-resolver-root.git"
+    },
+    "dependencies": {
+        "@parcel/core": "^2.13.0",
+        "@parcel/diagnostic": "^2.13.0",
+        "@parcel/node-resolver-core": "^3.4.0",
+        "@parcel/plugin": "^2.13.0",
+        "@parcel/utils": "^2.13.0"
+    },
+    "engines": {
+        "node": ">=18",
+        "parcel": "^2.13.0"
+    },
+    "devDependencies": {
+        "parcel": "^2.13.2"
+    },
+    "packageManager": "yarn@3.3.0"
+}
