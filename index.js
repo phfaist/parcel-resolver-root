@@ -73,7 +73,7 @@ export default (new Resolver({
             isCompleteFilesystemAbsolutePath = true;
         }
 
-        console.log(`resolve():`, {specifier, depSpecifier, isCompleteFilesystemAbsolutePath});
+        //console.log(`resolve():`, {specifier, depSpecifier, isCompleteFilesystemAbsolutePath});
 
         if (isCompleteFilesystemAbsolutePath) {
             return {
@@ -104,7 +104,7 @@ export default (new Resolver({
         }
 
         //throw new Error(`Using newSpecifier = ${newSpecifier}`);
-        console.log(`resolve(): Calling parcel's resolver for newSpecifier=${newSpecifier}`);
+        //console.log(`resolve(): Calling parcel's resolver for newSpecifier=${newSpecifier}`);
 
         return nodeResolver.resolve({
             filename: newSpecifier,
