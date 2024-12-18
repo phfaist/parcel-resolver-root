@@ -9,7 +9,7 @@
         "type": "git",
         "url": "https://github.com/phfaist/parcel-resolver-root.git"
     },
-    "dependencies": {
+    "peerDependencies": {
         "@parcel/core": "^2.13.0",
         "@parcel/diagnostic": "^2.13.0",
         "@parcel/node-resolver-core": "^3.4.0",
@@ -21,7 +21,7 @@
         "parcel": "^2.13.0"
     },
     "devDependencies": {
-        "parcel": "^2.13.2"
+        "parcel": "^2.13.3"
     },
     "packageManager": "yarn@3.3.0"
 }
