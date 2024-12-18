@@ -10,11 +10,8 @@
         "url": "https://github.com/phfaist/parcel-resolver-root.git"
     },
     "peerDependencies": {
-        "@parcel/core": "^2.13.0",
-        "@parcel/diagnostic": "^2.13.0",
         "@parcel/node-resolver-core": "^3.4.0",
-        "@parcel/plugin": "^2.13.0",
-        "@parcel/utils": "^2.13.0"
+        "@parcel/plugin": "^2.13.0"
     },
     "engines": {
         "node": ">=18",
